@@ -47,3 +47,76 @@ font-size: 20px;
 line-height: 23px;
 text-align: center;
 }
+.my-failure{
+    padding-left: 200px;
+    padding-right: 322px;
+    padding-top: 10px;
+    display: flex;
+   
+}
+.my-failure-title{
+position: absolute;
+width: 288px;
+height: 94px;
+left: 880px;
+top: 1050px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.my-failure-description{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+left: 900px;
+top: 1270px;
+padding-top: 380px;
+padding-left: 100px;
+}
+
+li{
+    list-style: none;
+}
+.my-failure li:before {
+    color: rgb(38, 178, 38);
+    content: '✓';
+  }
+
+  .plans-title{
+    color: #151414;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    margin-top: 100px;
+    /* padding: 30px 10px; */
+
+  }
+  .plans-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+  }
+  .plans-info-title{
+    font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+  }
+  .plans-info-description{
+    color: #737272;
+    text-align: center;
+  }
+.plans-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}  
