@@ -1,0 +1,49 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    width: 100%;
+    height: 808px;
+}
+.banner-text-title{
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    left: 890px;
+    right: 100px;
+    margin-right: 60px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    word-wrap: normal; 
+
+}
+.banner-text{
+    text-align: right;
+    position: absolute;
+    top: 380px;
+    left: 890px;
+    right: 100px;
+    margin-right: 60px;
+    color: #FFFFFF;
+    word-wrap: normal; 
+}
+.btn-primary{
+    position: absolute;
+width: 160px;
+height: 64px;
+left: 1210px;
+top: 500px;
+border-radius: 5px;
+border-width: 0;
+}
+.btn-text{
+    color: #005FAC;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
